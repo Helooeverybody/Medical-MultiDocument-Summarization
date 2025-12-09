@@ -15,17 +15,17 @@ Group 1 members:
 ## Project Description
 
 In this project, we try to investigate and learn both theoretical foundations and practical
-approaches to solve the abstractive multi-document text summarization problem in natural lan-
-guage processing(NLP), which remained highly challenging within linguistics and NLP be-
-fore the emergence of transformers or attention-based large language models(LLMs) trained
+approaches to solve the abstractive multi-document text summarization problem in natural language
+processing(NLP), which remained highly challenging within linguistics and NLP before the
+emergence of transformers or attention-based large language models(LLMs) trained
 on massive corpora. We propose to employ Longformer variant of BART, as well as further
 Longformer-based architectures such as CENTRUM and PRIMERA. Furthermore, we adapt
-Pegasus-X, a model originally developed for single-document summarization, to the multidoc-
-ument setting. Furthermore, we experiment these models on Cochrane-medical dataset and
+Pegasus-X, a model originally developed for single-document summarization, to the multidocument
+setting. Furthermore, we experiment these models on Cochrane-medical dataset and
 assess the performance based on the the ROUGE family of metrics, which are well established
 for summarization tasks in the old days, and we further evaluate performance with BERTScore,
-a more recent metric that measures not only tokens overlap but also the coherence of the gen-
-erated summaries.
+a more recent metric that measures not only tokens overlap but also the coherence of the 
+generatedsummaries.
 
 ## 🧪 Model Performance Comparison
 
